@@ -1,0 +1,475 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.background{
+    background-image: url(./image/background.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+a{
+    text-decoration: none;
+}
+.header{
+    background-color: wheat;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+}
+.header i{
+    display: none;
+}
+.header h3{
+    padding-left: 23px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 10px;
+    font-weight: 600;
+}
+.header .search img{
+    width: 25px;
+    cursor: pointer;
+
+}
+.header .lists ul{
+    display: flex;
+    gap: 40px;
+    font-size: 1.2em;
+    list-style: none;
+    margin-top: 15px;
+}
+.header .lists ul li:hover{
+    color: grey;
+    cursor: pointer;
+}
+.header .search{
+    padding-right: 30px;
+    padding-top: 10px;
+    
+}
+.made{
+    margin-top: 150px;
+    margin-left: 120px;
+
+}
+.made .h h2{
+    width: 349px;
+    font-size: 2.5em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.made .h p{
+    font-size: 1.1em;
+    font-weight: 100;
+    font-family: sans-serif;
+    padding-bottom: 10px;
+}
+.made .madebtn button{
+    padding: 10px 25px;
+    background-color: transparent;
+    font-size: 1.1em;
+    border-radius: 5px;
+}
+.made .madebtn button:hover{
+    background-color: #214e51;
+    color: #f3f3f3;
+}
+
+
+/* SECTION TWO*/
+
+.services{
+    width: 100%;
+    height: 110vh;
+
+}
+.services h2{
+    text-align: center;
+    padding-top: 40px;
+    color: orange;
+    font-family: sans-serif;
+}
+.menus .menu-img img{
+    width: 355px;
+}
+.menus{
+    display: flex;
+    gap: 40px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.menus .custom{
+    width: 355px;
+    height: 70vh;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    background-color: gainsboro;
+    
+}
+/* .menus .custom .menu-body{
+    border-left: 1px grey solid;
+    border-bottom: 1px grey solid;
+    border-right: 1px grey solid;
+} */
+.menus .custom h3{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 1em;
+    padding: 10px 0;
+}
+.menus .custom p{
+    padding: 0 20px;
+    width: 330px;
+    padding-bottom: 5px;
+}
+.custom .viewbtn button{
+    padding: 10px 15px;
+    background-color: transparent;
+    margin-left: 100px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.custom .viewbtn button:hover{
+    background-color: #393E46;
+    color: white;
+}
+
+/* SECTION THREE */
+
+.section3{
+    width: 100%;
+    height: 100vh;
+}
+.section3 .para h3{
+    text-align: center;
+    font-family: sans-serif;
+    /* padding-right: 90px; */
+    font-size: 1.5em;
+    color: orange;
+}
+.trendly{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-top: 80px;
+}
+.product{
+    margin-left: 50px;
+    width: 250px;
+    border: 1px gray solid;
+
+}
+.trendimg img{
+    width: 250px;
+    background-color: gainsboro;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.trend-body{
+    height: 140px;
+}
+.trend-body h3{
+    padding-top: 10px;
+    text-align: center;
+    font-family: sans-serif;
+
+}
+.trend-body h4{
+    text-align: center;
+    padding-top: 10px;
+    font-family: sans-serif;
+    color: #FD7014;
+}
+.trendbtn button{
+    padding: 7px 40px;
+    border-radius: 5px;
+    margin-top: 25px;
+    margin-left: 40px;
+    border: 1px grey solid;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.1em;
+}
+.trendbtn button:hover{
+    background-color: wheat;
+}
+.section4{
+    width: 100%;
+    height: 100vh;
+}
+.section4 h3{
+    text-align: center;
+    font-size: 1.5em;
+    font-family: sans-serif;
+    padding: 20px 0;
+    color: #FD7014;
+}
+.section4 .show{
+    display: flex;
+    gap: 20px;
+}
+.show .left img{
+    width: 570px;
+    /* height: 400px; */
+    padding: 15px 30px;
+}
+.show .right p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 12px 10px;
+    font-size: 0.93em;
+}
+.rightbtn button{
+    padding: 7px 26px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 18px;
+    border: 1px grey solid;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.1em
+}
+.rightbtn button:hover{
+    background-color: antiquewhite;
+}
+  
+.footer{
+    width: 100%;
+    height: 50vh;
+    background-color: black;
+    color: white;
+    margin-top: 30px;
+}
+.footer h2{
+    text-align: center;
+    font-family: sans-serif;
+    padding: 25px 0;
+    font-size: 1.6em;
+}
+.footer p{
+    text-align: center;
+    font-family: sans-serif;
+}
+.footer .logos{
+    margin-left: 550px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.logos i{
+    font-size: 1.5em;
+    padding-left: 10px;
+}
+.footer .coyu p{
+    padding-bottom: 10px;
+}
+
+.container{
+    background-color: wheat;
+    width: 600px;
+    height: 480px;
+    border-radius: 15px;
+    margin-top: 30px;
+    margin-left: 260px;
+    
+}
+.container h1{
+    padding-top: 10px;
+    text-align: center;
+    font-family: sans-serif;
+}
+.container p{
+    text-align: center;
+    color: gray;
+    margin-top: 10px;
+    font-family: sans-serif;
+}
+.a{
+    display: flex;
+    gap: 30px;
+    font-family: sans-serif;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.a label{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.a input{
+    margin-top: 5px;
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    padding-left: 10px;
+    border: none;
+    outline-color: orange;
+    box-shadow: 3px 3px 10px black;
+    background-color: rgb(214, 205, 205);
+}
+.z label{
+    margin-left: 30px;
+    font-family: sans-serif;
+    font-size: 1.2em;
+}
+.z textarea{
+    margin-left: 30px;
+    width: 450px;
+    height: 200px;
+    border-radius: 10px;
+    padding-left: 10px;
+    border: none;
+    outline-color: orange;
+    box-shadow: 3px 3px 10px black;
+}
+
+@media screen and (max-width:420px){
+    .header ul li{
+        display: none;
+    }
+    .header i{
+        display: block;
+        margin-top: 17px;
+        margin-left: 80px;
+        font-size: 1.3em;
+    }
+    .search{
+        display: none;
+    }
+    .made{
+        margin-top: 50px;
+        margin-left: 5%;
+
+    }
+    .made .h h2{
+        font-size: em;
+    }
+    .made .h .h2 span{
+        color: orange;
+    }
+    .background{
+        width: 430px;
+        height: 420px;
+    }
+    .services .menus{
+        display: block;
+        margin-left: 5%;
+        
+    }
+    .services .menus .custom{
+        height: 390px;
+        margin-left: 5px;
+
+
+    }
+    .menu-img{
+        margin-top: 30px;
+    }
+    .section3{
+        margin-top: 520px;
+    }
+    .section3 .para h3{
+        padding-top: 50px;
+    }
+    .section3 .trendly{
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: space-between;
+    }
+    .trendly .product{
+        width: 170px;
+        border: none;
+        margin-left: 3%;
+    }
+    .trendly .product img{
+        width: 200px;
+
+    }
+    .trendbtn button{
+        padding: 5px 10px;
+        margin-left: 30%;
+    }
+    .section4{
+        margin-top: 100px;
+    }
+    .section4 h3{
+        margin-top: 50px;
+    }
+    .section4 .show{
+        display: block;
+    }
+    .show .left img{
+        width: 350px;
+        padding-left: 15px;
+    }
+    .show .right p{
+        padding-left: 15px;
+    }
+
+    .footer{
+        margin-top: 350px;
+        margin-left: 0%;
+        height: 40vh;
+    }
+    .coyu{
+        margin-top: -40px;
+    }
+    .container{
+        margin-top: 10%;
+        margin-left: 5%;
+        width: 350px;
+        height: 530px;
+        font-family: sans-serif;
+    }
+    .a{
+        display: block;
+        margin-left: 10px;
+
+    }
+    .a label{
+        font-family: sans-serif;
+        margin-bottom: 10px;
+    }
+    .a input{
+        width: 300px;
+        height: 35px;
+        margin-bottom: 20px;
+
+
+    }
+    .z textarea{
+        width: 270px;
+        height: 100px;
+        margin-left: 10px;
+        padding-top: 10px;
+
+    }
+    .z label{
+        font-size: 1.2em;
+        font-family: sans-serif;
+        margin-left: 5%;
+    }
+    /* .zfooter{
+        margin-top: 30px;
+        width: 100%;
+        height: 40vh;
+        background-color: black;
+        color: white;
+        margin-top: 30px;
+    }
+    .zfooter h2{
+        text-align: center;
+        font-family: sans-serif;
+        padding: 25px 0;
+        font-size: 1.6em;
+    }
+    .zfooter p{
+        text-align: center;
+        font-family: sans-serif;
+    }
+    .zfooter .logos{
+        margin-left: 550px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    } */
+
+}
+
+
+
